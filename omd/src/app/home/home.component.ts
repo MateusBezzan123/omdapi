@@ -17,7 +17,6 @@ export class HomeComponent implements OnInit {
     const filme = event.target.value;
     this.homeService.buscarFilme(filme).then(res => {
       this.Filmes = res.Search
-      console.log(this.Filmes)
     });
   }
 }

@@ -1,0 +1,11 @@
+body {
+  padding-top: 3.5rem;
+}
+
+nav .btn-outline-light:hover {
+  color: #333;
+}
+
+li {
+  list-style-type: none;
+}
