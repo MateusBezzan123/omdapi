@@ -1,0 +1,13 @@
+<div class="container">
+  <input
+    type="text"
+    placeholder="Pesquisar filmes"
+    (keyup)="getFilme($event)"
+  />
+
+  <div>
+    <ul *ngFor="let filme of Filmes">
+      <li>{{ filme.Title }}</li>
+    </ul>
+  </div>
+</div>
